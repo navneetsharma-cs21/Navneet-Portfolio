@@ -1,166 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-      @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 
-      * {
-        margin: 0;
-        padding: 0;
-      }
-
-      body {
-        background-image: url(./assets/bg-image/2208636421.webp);
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        /* background-size: cover;
+body {
+  background-image: url(./assets/bg-image/2208636421.webp);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-size: cover;
             background-position: center; */
-        background-color: rgba(0, 0, 0, 0.9);
-        background-blend-mode: overlay;
-      }
-
-      nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 60px;
-        margin-left: 20px;
-        margin-right: 20px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000; 
-        padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.95);
+  background-blend-mode: overlay;
 }
-      
 
-      nav ul {
-        display: flex;
-        justify-content: center;
-        border: 2px solid white;
-        border-radius: 30px;
-        background-color: whitesmoke;
-      }
-
-      nav ul li {
-        list-style-type: none;
-        margin: 0 23px;
-        padding: 10px;
-        border-radius: 10px;
-      }
-
-      nav ul li a {
-        text-decoration: none;
-        color: black;
-      }
-
-      nav ul li a:hover {
-        text-decoration: none;
-        color: lightcoral;
-        font-size: 1.04rem;
-      }
-
-      main hr {
-        border: 0;
-        background-color: white;
-        height: 1.2px;
-        margin: 100px 74px;
-      }
-
-      .left {
-        font-size: 1.5rem;
-        font-weight: 600;
-        color: white;
-      }
-
-      .firstSection {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        margin: 70px 0;
-        text-align: center;
-      }
-
-      .leftection {
-        font-size: 4rem;
-        color: whitesmoke;
-        font-weight: 500;
-      }
-      .rightSection img {
-        width: 80%;
-      }
-
-      .purple {
-        color: rgb(25, 140, 228);
-        font-size: 90px;
-      }
-
-      .purple:hover {
-        font-size: 100px;
-      }
-
-      #element {
-        color: rgb(25, 140, 228);
-        font-size: 90px;
-      }
-
-      .secondSection {
-        max-width: 80vw;
-        height: 57vw;
-      }
-
-      .secondSection h1 {
-        color: white;
-        margin-left: 80px;
-        font-size: 2.2rem;
-        position: relative;
-    top: 85px;
-      }
-      .secondSection .grey-text {
-        margin-left: 84px;
-        color: whitesmoke;
-        margin-top: 20px;
-      }
-
-      .secondSection .box {
-        background: white;
-        width: 60vw;
-        height: 2px;
-        margin: 65px 74px;
-        display: flex;
-        position: relative;
-        left: 450px;
-      }
-
-      .secondSection .box .vertical {
-        height: 93px;
-        width: 1px;
-        background-color: whitesmoke;
-        margin: 0 100px;
-        position: relative;
-      }
-
-      .img-skill {
-        position: relative;
-        top: 58px;
-        width: 65px;
-        left: -31px;
-      }
-
-      .vertical-title {
-        position: relative;
-        top: 51px;
-        left: -37px;
-        font-size: 26px;
-        color: whitesmoke;
-        font-weight: 600;
-      }
-
-      .backend{
-        position: relative;
-    top: 65px;
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 10px 0;
 }
-      
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: whitesmoke;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0 23px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: lightcoral;
+  font-size: 1.04rem;
+}
+
+main hr {
+  border: 0;
+  background-color: white;
+  height: 1.2px;
+  margin: 100px 74px;
+}
+
+.left {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.firstSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 70px 0;
+  text-align: center;
+}
+
+.leftection {
+  font-size: 4rem;
+  color: whitesmoke;
+  font-weight: 500;
+}
+.rightSection img {
+  width: 80%;
+}
+
+.purple {
+  color: rgb(25, 140, 228);
+  font-size: 90px;
+}
+
+.purple:hover {
+  font-size: 100px;
+}
+
+#element {
+  color: rgb(25, 140, 228);
+  font-size: 90px;
+}
+
+.secondSection {
+  max-width: 80vw;
+  height: 57vw;
+}
+
+.secondSection h1 {
+  color: white;
+  margin-left: 80px;
+  font-size: 2.2rem;
+  position: relative;
+  top: 85px;
+}
+.secondSection .grey-text {
+  margin-left: 84px;
+  color: whitesmoke;
+  margin-top: 20px;
+}
+
+.secondSection .box {
+  background: white;
+  width: 60vw;
+  height: 2px;
+  margin: 65px 74px;
+  display: flex;
+  position: relative;
+  left: 450px;
+}
+
+.secondSection .box .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: whitesmoke;
+  margin: 0 100px;
+  position: relative;
+}
+
+.img-skill {
+  position: relative;
+  top: 58px;
+  width: 65px;
+  left: -31px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 51px;
+  left: -37px;
+  font-size: 26px;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+.backend {
+  position: relative;
+  top: 65px;
+}
+.Download-CV {
+  position: relative;
+  top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.Download-CV h1 {
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  background-color: rgb(6, 6, 14);
+  padding: 10px;
+}
