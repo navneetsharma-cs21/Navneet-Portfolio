@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     About: ".fourthsection",
     Skills: ".secondSection",
     Projects: ".thirdsection",
-    "Contact Me": ".contactSection",
+    "Contact Me": ".fifthsection",
   };
 
   document.querySelectorAll("nav ul li a").forEach((link) => {
@@ -50,3 +50,6 @@ document.querySelectorAll(".card").forEach((card) => {
     card.style.transform = "scale(1)"; // Reset zoom
   });
 });
+
+
+

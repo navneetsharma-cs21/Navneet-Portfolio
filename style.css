@@ -320,3 +320,69 @@ main hr {
 .rightcontent a img{
   margin-top: 50px;
 }
+
+.fifthsection{
+  height: 84vw;
+ 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+.contact-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 40%
+  }
+
+.contact-container h1 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+form textarea {
+    height: 120px;
+    resize: none;
+}
+
+form button {
+    background: #74ebd5;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    color: #333333;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+form button:hover {
+    background: #acb6e5;
+}
+
+#responseMsg {
+    margin-top: 15px;
+    color: #333;
+}
