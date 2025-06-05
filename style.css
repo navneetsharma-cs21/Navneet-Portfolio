@@ -177,7 +177,7 @@ main hr {
 
 .download-btn {
   border: 2px solid whitesmoke;
- font-size: 25px;
+  font-size: 25px;
   padding: 12px;
   background-color: #163518;
   color: white;
@@ -187,5 +187,87 @@ main hr {
 }
 
 .download-btn:hover {
-  background-color: #4CAF50;
+  background-color: #4caf50;
+}
+
+.thirdsection {
+  max-width: 100vw;
+  height: 77vw;
+}
+
+.thirdsection h1 {
+  color: white;
+  font-size: 2.2rem;
+  position: relative;
+  top: 85px;
+  text-align: center;
+}
+
+.thirdsection {
+  display: flex;
+  flex-direction: column;
+}
+.first-project-cards {
+  padding: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+}
+.Second-project-cards{
+  padding: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+}
+.card {
+  /* border: 2px solid #d8ddff; */
+  background-color: whitesmoke;
+  height: 360px;
+  width: 250px;
+  border-radius: 3px;
+  /* background: transparent; */
+}
+
+
+.card-image {
+  padding: 5px;
+}
+
+.card-image img {
+  border-radius: 3px;
+      width: 240px;
+      height: 158px;
+}
+
+
+.capsule {
+  padding:0;
+  text-align: center;
+  
+}
+.capsule span {
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 12px;
+  background-color: rgb(37, 37, 79);
+}
+
+.capsule span a {
+  text-decoration: none;
+  color: white;
+
+}
+.content {
+  padding: 10px;
+  text-align: center;
+}
+.content p {
+  font-size: 13px;
+  color: rgb(82, 78, 78);
+  text-align: center;
 }
