@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const sectionMap = {
     Home: ".firstSection",
-    About: ".aboutSection",
+    About: ".fourthsection",
     Skills: ".secondSection",
     Projects: ".thirdsection",
     "Contact Me": ".contactSection",
