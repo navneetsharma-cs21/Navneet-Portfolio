@@ -6,7 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
-
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "YmHjnWoItY_9Kz9sU",
+      });
+   })();
+</script>
 </head>
 
 <body>
@@ -260,7 +269,7 @@
 
     <section class="fifthsection">
        <div class="contact-container">
-        <h1>Contact Us</h1>
+        <h1>Contact Me</h1>
         <form id="contactForm">
             <input type="text" id="name" placeholder="Your Name" required>
             <input type="email" id="email" placeholder="Your Email" required>
@@ -270,11 +279,24 @@
         <p id="responseMsg"></p>
     </div>
     </section>
-
   </main>
 
+  <footer>
+  <div class="footer-container">
+    <div class="footer-logo">
+      <h2>Navneet Portfolio</h2>
+    </div>
+    <div class="footer-contact">
+      <p>📧 ivaann025@gmail.com</p>
+      <p>📞 +91 8791576606</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 YourBrand. All rights reserved.</p>
+  </div>
+</footer>
 
-  <script src="./script.js"></script>
+<script src="./script.js"></script>
 
 </body>
 

@@ -1,3 +1,29 @@
+
+document.getElementById("contactForm").addEventListener("submit", function(event){
+  event.preventDefault();
+
+  const responseMsg = document.getElementById("responseMsg");
+
+  emailjs.send("service_mk6dp2h", "template_gtqj4et", {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    message: document.getElementById("message").value,
+    // title: "New Message via Portfolio Contact Form", // Optional if using {{title}}
+    // time: new Date().toLocaleString() // Optional if using {{time}}
+  })
+  .then(function(response) {
+    responseMsg.innerText = "✨ Message sent successfully! I'll get back to you soon.";
+    document.getElementById("contactForm").reset();
+  }, function(error) {
+    responseMsg.innerText = "❌ Oops! Something went wrong. Please try again.";
+    console.error("FAILED...", error);
+  });
+});
+
+
+    
+   
+
 document.addEventListener("DOMContentLoaded", () => {
   const texts = [{ id: "element", text: "Web Developer !", speed: 100 }];
 
@@ -17,6 +43,8 @@ document.addEventListener("DOMContentLoaded", () => {
     typewriterEffect(id, text, speed);
   });
 });
+
+
 document.addEventListener("DOMContentLoaded", () => {
   const sectionMap = {
     Home: ".firstSection",
@@ -40,6 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+
 document.querySelectorAll(".card").forEach((card) => {
   card.addEventListener("mouseenter", () => {
     card.style.transform = "scale(1.1)"; // Zoom in
@@ -50,6 +79,36 @@ document.querySelectorAll(".card").forEach((card) => {
     card.style.transform = "scale(1)"; // Reset zoom
   });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

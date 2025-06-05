@@ -322,7 +322,7 @@ main hr {
 }
 
 .fifthsection{
-  height: 84vw;
+  height: 45vw;
  
 }
 
@@ -385,4 +385,45 @@ form button:hover {
 #responseMsg {
     margin-top: 15px;
     color: #333;
+}
+
+footer {
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+  padding: 40px 20px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo h2 {
+  margin: 0;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+.footer-contact p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333333;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #aaaaaa;
 }
